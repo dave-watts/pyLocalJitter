@@ -1,0 +1,58 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# build / packaging
+dist/
+build/
+*.egg-info/
+
+# --------------------
+# Virtual environments
+# --------------------
+.venv/
+venv/
+env/
+
+# --------------------
+# Data / ML outputs
+# --------------------
+data/
+datasets/
+models/
+outputs/
+runs/
+checkpoints/
+
+*.csv
+*.parquet
+*.h5
+*.pt
+*.pth
+
+# --------------------
+# Jupyter
+# --------------------
+.ipynb_checkpoints/
+
+# --------------------
+# uv / pip caches
+# --------------------
+uv.lock  # (optional: only if you don't want to commit it)
+
+# --------------------
+# OS junk
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# IDEs
+# --------------------
+.vscode/
+.idea/
+*.swp
